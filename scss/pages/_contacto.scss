@@ -1,0 +1,55 @@
+.contactos{
+    width: 80%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+
+    .contactos__titulo{
+        color: #0e2768;
+        font-size: 3rem;
+        padding: 5px;
+    }
+
+    .contactos__formulario{
+        border-radius: 8px;
+        background-color: rgb(202, 202, 202);
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .contactos__input{
+        min-width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .contactos__area{
+        border-radius: 5px;
+        width: 80%;
+        height: 100px;
+    }
+
+    .contactos__btn-2{
+        border: none;
+        background-color: #0e2768;
+        border-radius: 6px;
+        width: 50%;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .contactos__btn-2,a{
+        color: white;
+    }
+    
+    
+}

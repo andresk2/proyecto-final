@@ -1,0 +1,37 @@
+$color-primario:#0f1d40;
+.header{
+    background-color: $color-primario;
+    border: 2px solid;
+    display: flex;
+
+
+.nav__links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 20px;
+    
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 2px;
+
+    }
+    
+    
+}
+
+.nav__img{
+    width: 70px;
+    height: 70px;
+    
+}
+}
+
+h1{
+    text-align: center;
+}

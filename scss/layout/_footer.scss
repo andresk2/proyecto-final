@@ -1,0 +1,12 @@
+.footer{
+    color: white;
+    background-color: #0f1d40;
+
+    .footer__redes{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        height: 60px;
+    }
+}
